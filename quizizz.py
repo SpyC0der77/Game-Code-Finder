@@ -7,6 +7,9 @@ import threading
 with open("codes.txt", "w") as f:
     pass
 
+print("Starting")
+print("To use, go to https://quizizz.com/join")
+
 # Define the function that each thread will run
 def check_room():
     while True:
